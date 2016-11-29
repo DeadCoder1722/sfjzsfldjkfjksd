@@ -325,3 +325,23 @@ footer .top .viewport div:first-child{padding-top:0}
 }@media screen and (max-width: 780px){#tab3 ul{width:498px;margin-left:auto;margin-right:auto}
 }@media screen and (max-width: 531px){#tab3 ul{width:255px;margin-left:auto;margin-right:auto}
 }
+
+#tab4{margin:0 0 60px 0;padding-top:43px;font-family:'Avenir Next',sans-serif;color:#9a9a9a;font-size:16px}
+#tab4 h1{font-family:'Avenir Next Thin',sans-serif;font-size:32px;color:#35b95b}
+#tab4 ul{padding-left:0;margin-top:30px}
+#tab4 li{background-color: #f6f7f8; border-radius:15px; border:1px; border-style: dashed;border-color: #07B0F9; box-shadow: 0px 3px 3px 3px #c0c0c0;
+		width:300px;list-style:none;margin:10px;float:left;min-height:237px;font-family:'Avenir Next',sans-serif}
+#tab4 a > div{opacity:0;position:absolute;left:0;top:0;background:rgba(255,255,255,0.9);padding-top:5px;padding-bottom:174px;height:49px;width:100%;-webkit-transition:opacity .3s ease-out;-moz-transition:opacity .3s ease-out;-ms-transition:opacity .3s ease-out;-o-transition:opacity .3s ease-out;transition:opacity .3s ease-out}
+#tab4 a:hover > div{opacity:1; width: 300px;border-radius: 15px; height: 60px;  border-bottom: 1px solid #07B0F9}
+#tab4 li:last-child{margin-right:0}
+#tab4 li:hover > img{}
+#tab4 li a{display:block;width:237px;height:237px;position:relative}
+#tab4 li .name{color:#109EDC;font-size:18px;width:100%;display:block;position:relative}
+#tab4 li .position,#tab4 li p{color:#595959;font-family:'Avenir Next Thin',sans-serif;font-size:14px;}
+#tab4 li p{line-height: 18px; padding:10px 14px 14px 14px; width: 260px; font-size:13px; text-align: justify;}
+#tab4 li .name,#tab4 li .position{margin-left:14px; padding-top: 20px; padding-bottom: 10px; font-weight: 600;}
+@media screen and (max-width: 1030px){#tab4 h1{text-align:center}
+#tab4 ul{width:747px;margin-left:auto;margin-right:auto}
+}@media screen and (max-width: 780px){#tab4 ul{width:498px;margin-left:auto;margin-right:auto}
+}@media screen and (max-width: 531px){#tab4 ul{width:255px;margin-left:auto;margin-right:auto}
+}
